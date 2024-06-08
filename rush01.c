@@ -1,7 +1,13 @@
 #include <unistd.h>
-
+/*
+* For Print A Single Character.
+*/
 void ft_putchar(char c);
-
+/*
+* Function For Draw A rectangle:
+* - Start With Row = 1 And Column = 1 .
+* - End With Row = Width(y) And Column = height(x).
+*/
 void	rush(int x, int y)
 {
 	int row,col;
